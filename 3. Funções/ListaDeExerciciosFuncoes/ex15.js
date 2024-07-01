@@ -8,24 +8,21 @@ function revenda(modelo) {
     let mensagem 
     switch (modelo.toLowerCase()) {
         case "hatch":
-        mensagem = "Compra efetuada com sucesso"
-        break
+            mensagem = "Compra efetuada com sucesso"
+            break
         case "sedans":
-        mensagem = "Tem Certeza que prefere este modelo?"
-        break
+            mensagem = "Tem Certeza que prefere este modelo?"
+            break
         case "motocicletas":
-        mensagem = "Tem Certeza que prefere este modelo?"
-        break
+            mensagem = "Tem Certeza que prefere este modelo?"
+            break
         case "caminhonetes":
-        mensagem = "Tem Certeza que prefere este modelo?"
-        break
+            mensagem = "Tem Certeza que prefere este modelo?"
+            break
         default:
-        mensagem = "Não trabalhamos com este tipo de automóvel aqui."
-        
+            mensagem = "Não trabalhamos com este tipo de automóvel aqui."
     }
-
 return mensagem
-
 }
 
 console.log(revenda("Caminhonetes"))

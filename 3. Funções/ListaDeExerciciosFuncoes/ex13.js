@@ -5,28 +5,28 @@ const verificaDia = function (dia) {
     let nomeDoDia = dia
     switch (nomeDoDia) {
         case 1: case 8: case 15: case 22: case 29:
-        nomeDoDia = "Domingo"
-        break;
+            nomeDoDia = "Domingo"
+            break;
         case 2: case 9: case 16: case 23: case 30:
-        nomeDoDia = "Segunda-Feira"
-        break; 
+            nomeDoDia = "Segunda-Feira"
+            break; 
         case 3: case 10: case 17: case 24: case 31:
-        nomeDoDia = "Terça-Feira"
-        break;
+            nomeDoDia = "Terça-Feira"
+            break;
         case 4: case 11: case 18: case 25:
-        nomeDoDia = "Quarta-feira"
-        break; 
+            nomeDoDia = "Quarta-feira"
+            break; 
         case 5: case 12: case 19: case 26:
-        nomeDoDia = "Quinta-Feira"
-        break;
+            nomeDoDia = "Quinta-Feira"
+            break;
         case 6: case 13: case 20: case 27:
-        nomeDoDia = "Sexta-Feira"
-        break;
+            nomeDoDia = "Sexta-Feira"
+            break;
         case 7: case 14: case 21: case 28:
-        nomeDoDia = "Sábado"
-        break;
+            nomeDoDia = "Sábado"
+            break;
         default:
-        nomeDoDia = "Dia inválido"
+            nomeDoDia = "Dia inválido"
     }
 
     return nomeDoDia
